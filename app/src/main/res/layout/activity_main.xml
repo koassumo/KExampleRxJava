@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="start"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnObservableJust"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textSize="10dp"
+        android:text="@string/btn_observable_just" />
+
+    <Button
+        android:id="@+id/btnObservableFromArray"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textSize="10dp"
+        android:text="@string/observable_from_array" />
+
+    <Button
+        android:id="@+id/btnObservableSimpleEmitter"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textSize="10dp"
+        android:text="@string/btn_observable_simple_emitter" />
+
+    <EditText
+        android:id="@+id/editTextField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_for_emitter"
+        />
+
+    <Button
+        android:id="@+id/btnObservableOperators"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textSize="10dp"
+        android:text="@string/btn_observable_operators" />
+
+    <Button
+        android:id="@+id/btnObservableAnonymous"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textSize="10dp"
+        android:text="@string/btn_observable_anonymous" />
+
+    <Button
+        android:id="@+id/btnConsumer"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textSize="10dp"
+        android:text="@string/btn_consumer" />
+
+    <Button
+        android:id="@+id/btnTest1"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textSize="10dp"
+        android:text="@string/btn_just_vs_defer" />
+
+    <Button
+        android:id="@+id/btnTest2"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textSize="10dp"
+        android:text="@string/btn_test2" />
+
+    <TextView
+        android:id="@+id/textViewDisplay1"
+        android:text="@string/no_data"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"/>
+
+    <TextView
+        android:id="@+id/textViewDisplay2"
+        android:text="@string/no_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

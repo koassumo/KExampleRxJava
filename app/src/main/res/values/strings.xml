@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">KExampleRxJava</string>
+    <string name="btn_observable_create">Observable Create Kotlin</string>
+    <string name="no_data">no data</string>
+    <string name="btn_observable_just">1. observable just</string>
+    <string name="observable_from_array">2. observable from array</string>
+    <string name="btn_observable_simple_emitter">observable simple emitter</string>
+    <string name="btn_observable_anonymous">5. observable anonymous</string>
+    <string name="btn_consumer">6. consumer</string>
+    <string name="btn_observable_operators">4. observable operators</string>
+    <string name="enter_for_emitter">3. enter for emitter</string>
+    <string name="btn_just_vs_defer">7. just vs defer</string>
+    <string name="btn_test2">8. Test 2</string>
+</resources>
